@@ -1,0 +1,45 @@
+body {
+    padding-top: 60px;
+    background-color: #E0F7FA;
+}
+.navbar {
+    margin-bottom: 20px;
+    background-color: #40E0D0;
+}
+.navbar-brand {
+    color: #000000 !important;
+}
+.navbar-nav .nav-link {
+    color: #000000 !important;
+}
+.jumbotron {
+    background-color: rgba(148, 220, 210, 0.51);
+    color: #000000;
+}
+.user-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.user-card {
+    border: 1px solid #40E0D0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.btn-primary {
+    background-color: #40E0D0;
+    border-color: #40E0D0;
+}
+.btn-primary:hover {
+    background-color: #36c2b5;
+    border-color: #36c2b5;
+}
+.btn-danger {
+    background-color: #ff4c4c;
+    border-color: #ff4c4c;
+}
+.btn-danger:hover {
+    background-color: #ff1f1f;
+    border-color: #ff1f1f;
+}
